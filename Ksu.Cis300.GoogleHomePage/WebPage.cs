@@ -1,4 +1,7 @@
-﻿using System;
+﻿/* WebPage.cs
+ * Author: Rod Howell
+ */
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -10,9 +13,15 @@ using System.Windows.Forms;
 
 namespace Ksu.Cis300.GoogleHomePage
 {
-    public partial class Form1 : Form
+    /// <summary>
+    /// A form displaying Google's web page.
+    /// </summary>
+    public partial class WebPage : Form
     {
-        public Form1()
+        /// <summary>
+        /// Constructs the form
+        /// </summary>
+        public WebPage()
         {
             InitializeComponent();
         }
